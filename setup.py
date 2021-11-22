@@ -38,9 +38,5 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
     ],
-    entry_points={
-        "console_scripts": [
-            "pycec=pycec.__main__:main",
-        ],
-    },
+    entry_points={"console_scripts": ["pycec=pycec.__main__:main"]},
 )
